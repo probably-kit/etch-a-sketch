@@ -1,0 +1,27 @@
+body{
+ background-color: #eee;   
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.8em;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.grid{
+    width: 500px;
+    height: 500px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+footer{
+    
+    
+    
+}
