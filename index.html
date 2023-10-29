@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Etch-a-Sketch</title>
     <link rel="stylesheet" href="style.css">
+    
 </head>
 
 <body>
@@ -14,16 +15,15 @@
     </header>
     <div class="container">
         <div class="container column">
-            <input type="color" >
-            <button>Color mode</button>
+            <input type="color" id="colorPicker" >
             <button>Rainbow mode</button>
-            <button>Eraser</button>
+            <button id="eraser">Eraser</button>
             <button>Clean</button>
-            <input type="range" name="" id="">
+            <input type="range" id="gridSizeRange" value="16" min="16" max="64">
         </div>
-        <div class="grid"></div>
+        <div class="grid" id="gridContainer"></div>
     </div>
-    <footer class="container">aboba</footer>
+    <footer>aboba</footer>
 </body>
-
+<script src="main.js"></script>
 </html>
